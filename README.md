@@ -1,6 +1,7 @@
 # Object-Oriented Programming Project
 
-This repository contains a series of tasks developed as part of an Object-Oriented Programming course. Each task is divided into multiple units, with three iterations for each unit. The project was developed using IntelliJ IDEA.
+This repository contains a series of individual tasks developed as part of an Object-Oriented Programming course with more than 16000+ lines of java code in total.
+Each task is divided into multiple units, with three iterations for each unit. The project was developed using IntelliJ IDEA.
 
 ## Project Breakdown
 
