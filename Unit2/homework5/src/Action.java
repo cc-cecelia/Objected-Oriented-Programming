@@ -1,0 +1,3 @@
+enum Action {
+    FORWARD, BACKWARD, OPENCLOSE, WAIT, OVER
+}

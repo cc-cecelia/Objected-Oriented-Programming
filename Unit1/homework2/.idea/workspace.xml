@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a8b0abb-5ed8-4a2d-862c-dff4d1e5b27a" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/CosTrigono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/Expansion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/Expr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/Factor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/FormalFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/Lexer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/SinTrigono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/Term.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/VarSet.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2pwobF03ufh0vdAT6mL3KAJEaGT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/C_OO/Application/homework/Unit1/homework2/src",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\C_OO\Application\homework\Unit1\homework2\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="1a8b0abb-5ed8-4a2d-862c-dff4d1e5b27a" name="更改" comment="" />
+      <created>1733686568392</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733686568392</updated>
+      <workItem from="1733686569497" duration="150000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

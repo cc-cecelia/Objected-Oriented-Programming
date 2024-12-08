@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74204fc3-5d17-43bb-826d-51c698d00e8a" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EleInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Elevator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ElevatorFac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InputThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MtInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RequestQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VerElevator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw_6_class.puml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2pwpGUuv6LNocNwNyn3gNPJFPoR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/C_OO/Application/homework/Unit2/homework6/src",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\C_OO\Application\homework\Unit2\homework6\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="74204fc3-5d17-43bb-826d-51c698d00e8a" name="更改" comment="" />
+      <created>1733686897649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733686897649</updated>
+      <workItem from="1733686898684" duration="51000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

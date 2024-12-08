@@ -1,0 +1,154 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Dispatcher
+class EleInfo
+
+RequestQueue o-- MyRequest
+ElevatorFac o-- EleInfo
+VerElevator o-- RequestQueue
+InputThread o-- RequestQueue
+Dispatcher o-- RequestQueue
+VerElevator o-- ElevatorFac
+InputThread o-- ElevatorFac
+Dispatcher o-- ElevatorFac
+MainClass ..> InputThread : create
+MainClass ..> Elevator : create
+MainClass ..> Dispatcher : create
+Dispatcher ..> Elevator :create or end
+VerElevator o-- Action
+Dispatcher o-- MtInfo
+VerElevator o-- MtInfo
+
+enum Action {
+FORWARD
+BACKWARD
+OPENCLOSE
+WAIT
+OVER
+MAINTAIN
+}
+
+class Dispatcher {
+    private final RequestQueue mainQueue;
+    private final ArrayList<RequestQueue> subQueues;
+    private final ElevatorFac elevatorFac;
+    private int flag = 0;
+    private final ArrayList<Elevator> eleList;
+    private final ArrayList<MtInfo> mtList;
+    private final ArrayList<MtInfo> totalMtList;
+    public void run();
+    public void addEle(EleInfo);
+}
+
+class EleInfo {
+    private int id = 0;
+    private int curStorey = 0;
+    private double moveTime = 0;
+    private int capacity = 0;
+    public synchronized void build();
+    public synchronized int getId();
+    public synchronized int getCapacity();
+    public synchronized int getCurStorey();
+    public synchronized double getMoveTime();
+    public EleInfo deepClone();
+}
+
+class Elevator {
+    public int getMyId();
+}
+
+class ElevatorFac {
+    private boolean ifAdd = false;
+    private boolean isEnd = false;
+    private final EleInfo = new EleInfo();
+    private boolean ifMaintain = false;
+    private int mtId = 0;
+    private final Lock = new ReentrantLock();
+    private final Condition conAdd = lock.newCondition();
+    private final Condition conMain = lock.newCondition();
+    public void build();
+    public void setEnd(boolean);
+    public void maintain(int);
+    public EleInfo getEleInfo();
+    public int getMtId();
+    public boolean isEnd();
+    public boolean isIfAdd();
+    public boolean isIfMaintain();
+}
+
+class InputThread {
+    private final RequestQueue mainQueue;
+    private final ElevatorFac elevatorFac;
+    public void run();
+}
+
+class MainClass {
+    public static void main(String[] args);
+}
+
+class MtInfo {
+    private boolean ifMt;
+    private boolean ifOut;
+    public synchronized void setMtInfo();
+    public synchronized void setIfOut();
+    public synchronized boolean getIfMt();
+    public synchronized boolean getIfOut();
+}
+
+class MyRequest {
+    private int fromStorey;
+    private final int toStorey;
+    private final int id;
+    private final boolean upOrDown;
+    public int getFromStorey();
+    public int getToStorey();
+    public int getId();
+    public boolean getDirection();
+    public void setFromStorey();
+    public MyRequest deepClone();
+}
+
+class RequestQueue {
+    private final ArrayList<MyRequest> requestList;
+    private boolean isEnd;
+    public synchronized void addRequest();
+    public synchronized MyRequest getMainReq();
+    public synchronized void setEnd();
+    public synchronized boolean isEnd();
+    public synchronized boolean isEmpty();
+    public synchronized boolean containFromStorey();
+    public synchronized boolean containDirection();
+    public synchronized void waitForRequest();
+    public synchronized MyRequest getOneFrom();
+    public synchronized void clear();
+}
+
+class VerElevator extends Elevator {
+    private final RequestQueue subQueue;
+    private final ArrayList<MyRequest> myList;
+    private final int id;
+    private boolean isUp;
+    private int curPass;
+    private int curStorey;
+    private final int openTime;
+    private final int closeTime;
+    private final int moveTime;
+    private final int capacity;
+    private final MtInfo mtInfo;
+    private int mtStorey;
+    private final RequestQueue mainQueue;
+    public void run();
+    public Action getAction();
+    public boolean openForIn();
+    public boolean openForOut();
+    public void forward();
+    public void open();
+    public void close();
+    public void passOut();
+    public void passAllOut();
+    public void passIn();
+    public void maintain();
+    public int getMyId();
+}
+@enduml

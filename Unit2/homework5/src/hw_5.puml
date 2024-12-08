@@ -1,0 +1,100 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Dispatcher
+class Thread
+class Elevator
+class InputThread
+class MainClass
+class Request
+class RequestQueue
+class Strategy
+
+RequestQueue o-- Request
+VerElevator..>Strategy
+Strategy o-- Action
+VerElevator o-- RequestQueue
+InputThread o-- RequestQueue
+Dispatcher o-- RequestQueue
+MainClass ..> InputThread : create
+MainClass ..> VerElevator : create
+MainClass ..> Dispatcher : create
+
+enum Action {
+FORWARD
+BACKWARD
+OPENCLOSE
+WAIT
+OVER
+}
+
+class Dispatcher extends Thread {
+    private RequestQueue mainQueue;
+    private ArrayList<RequestQueue> subQueues;
+    private int flag = 0;
+    public void run();
+}
+
+class Elevator extends Thread {
+}
+
+class InputThread extends Thread {
+    private final RequestQueue mainQueue;
+    public void run();
+}
+
+class MainClass {
+    public static void main(String[] args);
+}
+
+class Request implements Serializable {
+    private final int fromStorey;
+    private final int toStorey;
+    private final int id;
+    private final boolean upOrDown;
+    public int getFromStorey();
+    public int getToStorey();
+    public int getId();
+    public boolean getDirection();
+    public Request deepClone();
+}
+
+class RequestQueue {
+    private final ArrayList<Request> requestList;
+    private boolean isEnd;
+    public synchronized void addRequest(Request);
+    public synchronized Request getOneRequest();
+    public synchronized void setEnd(boolean);
+    public synchronized boolean isEnd();
+    public synchronized boolean isEmpty();
+    public synchronized boolean containFromStorey(int, boolean);
+    public synchronized boolean containDirection(boolean, int);
+    public synchronized void waitForRequest();
+    public synchronized Request getOneFrom(int, boolean);
+}
+
+class Strategy {
+    public Action getAction();
+    public boolean openForIn();
+    public boolean openForOut();
+}
+
+class VerElevator extends Elevator {
+    private RequestQueue subQueue;
+    private ArrayList<Request> myList;
+    private int id;
+    private boolean isUp;
+    private int curPass;
+    private int curStorey;
+    private Strategy strategy;
+    private int openTime;
+    private int closeTime;
+    private int moveTime;
+    public void run();
+    public void forward();
+    public void open();
+    public void close();
+    public void passOut();
+    public void passIn();
+}
+@enduml

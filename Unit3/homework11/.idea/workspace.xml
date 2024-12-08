@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df695faf-0568-42b8-8702-9c95ace9cab0" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dijkstra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DisJointSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyAcquaintanceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyDeleteColdEmojiOkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyDot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyEmojiIdNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyEmojiMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyEqualEmojiIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyEqualGroupIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyEqualMessageIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyEqualPersonIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyEqualRelationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyGroupIdNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyMessageIdNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyNoticeMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPathNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPersonIdNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyRedEnvelopeMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyRelationNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PersonCnt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RelationCnt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/exceptions/AcquaintanceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/exceptions/EmojiIdNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/exceptions/EqualEmojiIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/exceptions/EqualGroupIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/exceptions/EqualMessageIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/exceptions/EqualPersonIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/exceptions/EqualRelationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/exceptions/GroupIdNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/exceptions/MessageIdNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/exceptions/PathNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/exceptions/PersonIdNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/exceptions/RelationNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/main/EmojiMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/main/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/main/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/main/Network.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/main/NoticeMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/main/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/main/RedEnvelopeMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oocourse/spec3/main/Runner.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2pwqBciLyNTBsMEe0gkJblMCqIX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/C_OO/Application/homework/Unit3/homework11/src",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\C_OO\Application\homework\Unit3\homework11\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="df695faf-0568-42b8-8702-9c95ace9cab0" name="更改" comment="" />
+      <created>1733687352826</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733687352826</updated>
+      <workItem from="1733687353821" duration="89000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
